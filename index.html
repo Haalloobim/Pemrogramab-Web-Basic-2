@@ -52,8 +52,35 @@
                         <input type="text" id="holder" class="shadow-md bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 py-3.5 hover:bg-gray-100 transition-all ease-in-out duration-75 "readonly placeholder="Basic Calculator" required autocomplete="off" >
                     </div>
                 </div>
+                <div class="flex flex-col gap-y-4 mx-auto">
+                    <div class="flex flex-row gap-x-3">
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('7')">7</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('8')">8</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('9')">9</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('+')">+</button>
+                    </div>
+                    <div class="flex flex-row gap-x-3">
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('4')">4</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('5')">5</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('6')">6</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('-')">-</button>
+                    </div>
+                    <div class="flex flex-row gap-x-3">
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('1')">1</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('2')">2</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('3')">3</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('*')">*</button>
+                    </div>
+                    <div class="flex flex-row gap-x-3">
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('0')">0</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="clearInput()">C</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="result()">=</button>
+                        <button class="px-4 py-3 bg-gray-50 hover:bg-gray-200 transition-all ease-in-out duration-75  rounded-md shadow-sm border border-gray-400 font-inter text-center items-center " onclick="show('/')">/</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    
 </body>
 </html>
