@@ -92,8 +92,18 @@
 
         let result = () => {
             const exp = document.getElementById('holder').value;
-            const res = eval(exp);
-            document.getElementById('holder').value = res;
+            try {
+                const res = eval(exp);
+                if (res === Infinity){
+                    alert('Error: Diviided by 0!!'); 
+                    clearInput(); 
+                    return; 
+                }
+                document.getElementById('holder').value = res;
+            } catch (error) {
+                alert('Invalid expression');
+                clearInput();
+            }
         }
 
 
