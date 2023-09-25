@@ -4,7 +4,7 @@
 ## NRP  : 5025221260
 
 
-Diberikan tugas untuk membuat sebuah halaman aplikasi yang mempunyai fungsi sebagai kalkulator sederhana sebagai perkenalan dari javascript..... 
+Diberikan tugas untuk membuat sebuah halaman aplikasi yang mempunyai fungsi sebagai kalkulator sederhana sebagai perkenalan dari javascript sederhana 
 
 
 ![dash](./img/dash.png)
